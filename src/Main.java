@@ -1,14 +1,14 @@
-import Services.DataService;
-import Database.DatabaseInitialization;
+import Models.Menu;
+import DatabaseConnection.DatabaseInitialization;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class Main {
-    DataService dataService =  DataService.getInstance();
-
-    public static void main(String[] args) {
-        DatabaseInitialization dbCon = new DatabaseInitialization(); //bd
-
+    public static void main(String[] args) throws SQLException {
+        Menu menu =  Menu.getInstance();
+        menu.start();
     }
-
 
 
 }

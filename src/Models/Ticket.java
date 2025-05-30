@@ -12,7 +12,8 @@ public class Ticket {
 //        }
 //    }
 
-    public Ticket(Integer id, Integer seatNumber, Character zone, Double ticketPrice) {
+
+    public Ticket(Integer id, Integer seatNumber, Character zone) {
         this.id = id;
         this.seatNumber = seatNumber;
         this.zone = zone;

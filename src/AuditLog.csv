@@ -1,12 +1,8 @@
-Connected to database, 30/May/2025 03:32:04
-Created or checked database Venue, 30/May/2025 03:32:04
-Created or checked Venue Table, 30/May/2025 03:32:04
-Created or checked Event Table, 30/May/2025 03:32:04
-Created or checked  Artist Table, 30/May/2025 03:32:04
-Created or checked Ticket Table, 30/May/2025 03:32:04
-Created or checked Event Ticket Table, 30/May/2025 03:32:04
-Created or checked Staff Table, 30/May/2025 03:32:04
-Inserted Venue Data, 30/May/2025 03:32:04
-Inserted Event Data, 30/May/2025 03:32:04
-Inserted Artist Data, 30/May/2025 03:32:04
-Database Initialization for Venue, Events, Artists and Tickets Complete. Remember Staff!, 30/May/2025 03:32:05
+Connected to database, 30/May/2025 07:59:09
+Singleton Menu Instance Gotten, 30/May/2025 07:59:09
+Displayed Venue Details, 30/May/2025 07:59:09
+Displayed Venue Details, 30/May/2025 07:59:13
+Displayed Venue Details, 30/May/2025 07:59:14
+Loaded Venue, 30/May/2025 07:59:15
+Displayed Venue Events by date, 30/May/2025 07:59:15
+Displayed Venue Details, 30/May/2025 07:59:15

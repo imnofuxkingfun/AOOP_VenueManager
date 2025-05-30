@@ -1,4 +1,4 @@
-package Database;
+package DatabaseConnection;
 import Services.AuditService;
 
 public class DatabaseInitialization extends ConnectionString {

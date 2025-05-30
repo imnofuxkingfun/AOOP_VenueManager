@@ -6,10 +6,11 @@ public class Artist {
     private String email;
     private Integer eventId;
 
-    public Artist(Integer id, String name, String description, String email) {
+    public Artist(Integer id, String name, String email, Integer eventId) {
         this.id = id;
         this.name = name;
         this.email = email;
+        this.eventId = eventId;
     }
 
     public Integer getId() {
