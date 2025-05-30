@@ -1,3 +1,5 @@
+package Services;
+
 public class DataService {
 
     private DataService() {}

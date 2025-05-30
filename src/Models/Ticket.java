@@ -4,13 +4,18 @@ public class Ticket {
     private  Integer id;
     private Integer seatNumber;
     private Character zone;
-    private Double price;
+    private static Integer nextTicketId = 0;
+
+//    static{
+//        try{
+//            //sa gasesti ultimul id de ticket
+//        }
+//    }
 
     public Ticket(Integer id, Integer seatNumber, Character zone, Double ticketPrice) {
         this.id = id;
         this.seatNumber = seatNumber;
         this.zone = zone;
-        this.price = ticketPrice;
     }
 
     public Integer getTicketID() {
@@ -37,21 +42,12 @@ public class Ticket {
         this.zone = zone;
     }
 
-    public Double getTicketPrice() {
-        return price;
-    }
-
-    public void setTicketPrice(Double ticketPrice) {
-        this.price = ticketPrice;
-    }
-
     @Override
     public String toString() {
         return "Ticket{" +
-                "ticketID=" + id +
+                "id=" + id +
                 ", seatNumber=" + seatNumber +
                 ", zone=" + zone +
-                ", ticketPrice=" + price +
                 '}';
     }
 }

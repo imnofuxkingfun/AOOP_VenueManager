@@ -3,13 +3,12 @@ package Models;
 public class Artist {
     private Integer id;
     private String name;
-    private String description;
     private String email;
+    private Integer eventId;
 
     public Artist(Integer id, String name, String description, String email) {
         this.id = id;
         this.name = name;
-        this.description = description;
         this.email = email;
     }
 
@@ -29,14 +28,6 @@ public class Artist {
         this.name = name;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -45,13 +36,21 @@ public class Artist {
         this.email = email;
     }
 
+    public Integer getEventId() {
+        return eventId;
+    }
+
+    public void setEventId(Integer eventId) {
+        this.eventId = eventId;
+    }
+
     @Override
     public String toString() {
         return "Artist{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", description='" + description + '\'' +
                 ", email='" + email + '\'' +
+                ", eventId=" + eventId +
                 '}';
     }
 }
