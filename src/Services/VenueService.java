@@ -9,6 +9,18 @@ import java.sql.SQLException;
 import java.util.*;
 
 public class VenueService extends MenuDB {
+
+    private VenueService() {}
+
+    private static final class SINGLETON_HOLDER {
+        private static final VenueService INSTANCE = new VenueService();
+    }
+
+    public static VenueService getInstance() {
+        AuditService.logAction("Singleton VenueService Instance Gotten");
+        return SINGLETON_HOLDER.INSTANCE;
+    }
+
     static AuditService auditService = new AuditService();
 
     public void displayVenue() throws SQLException {
@@ -78,9 +90,30 @@ public class VenueService extends MenuDB {
     public void displayVenueEvents(Venue v) throws SQLException{
         for(Map.Entry<Date, Event> e : v.getEventsByDate().entrySet()) {
             Event temp = e.getValue();
-            System.out.println("ID: " + temp.getId() + ". " + e.getKey() + " - " + temp.getName());
+            System.out.println("[ID: " + temp.getId() + "] - [" + e.getKey() + "] - " + temp.getName());
         }
         auditService.logAction("Displayed Venue Events by date");
     }
+
+    public void updateVenue() throws SQLException{
+        System.out.println("Insert new venue name: (leave empty for no change)");
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+        if (!name.isBlank()){
+            MenuDB.updateVenueNameStatement.setString(1,name);
+            MenuDB.updateVenueNameStatement.executeUpdate();
+            auditService.logAction("Venue name updated");
+        }
+        System.out.println("Insert new venue address: (leave empty for no change)");
+        String address = sc.nextLine();
+        if (!address.isBlank()){
+            MenuDB.updateVenueAddressStatement.setString(1,address);
+            MenuDB.updateVenueAddressStatement.executeUpdate();
+            auditService.logAction("Venue address updated");
+        }
+
+    }
+
+
 
 }

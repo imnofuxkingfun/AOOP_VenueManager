@@ -1,8 +1,27 @@
-Connected to database, 30/May/2025 07:59:09
-Singleton Menu Instance Gotten, 30/May/2025 07:59:09
-Displayed Venue Details, 30/May/2025 07:59:09
-Displayed Venue Details, 30/May/2025 07:59:13
-Displayed Venue Details, 30/May/2025 07:59:14
-Loaded Venue, 30/May/2025 07:59:15
-Displayed Venue Events by date, 30/May/2025 07:59:15
-Displayed Venue Details, 30/May/2025 07:59:15
+Singleton Menu Instance Gotten, 02/Jun/2025 05:41:50
+Displayed Venue Details, 02/Jun/2025 05:41:50
+Staff List Loaded, 02/Jun/2025 05:41:52
+Staff List Displayed, 02/Jun/2025 05:41:52
+Deleted staff with id: 15, 02/Jun/2025 05:42:00
+Staff List Loaded, 02/Jun/2025 05:42:00
+Staff List Displayed, 02/Jun/2025 05:42:00
+Staff List Loaded, 02/Jun/2025 05:42:10
+Staff List Displayed, 02/Jun/2025 05:42:10
+Displayed Venue Details, 02/Jun/2025 05:42:15
+Staff List Loaded, 02/Jun/2025 05:42:20
+Staff List Displayed, 02/Jun/2025 05:42:20
+Staff List Loaded, 02/Jun/2025 05:42:31
+Staff List Displayed, 02/Jun/2025 05:42:31
+Displayed Venue Details, 02/Jun/2025 05:42:34
+Connected to database, 02/Jun/2025 05:48:33
+Singleton VenueService Instance Gotten, 02/Jun/2025 05:48:33
+Singleton EventService Instance Gotten, 02/Jun/2025 05:48:33
+Singleton TicketService Instance Gotten, 02/Jun/2025 05:48:33
+Singleton ArtistService Instance Gotten, 02/Jun/2025 05:48:33
+Singleton StaffService Instance Gotten, 02/Jun/2025 05:48:33
+
+Singleton Menu Instance Gotten, 02/Jun/2025 05:48:33
+Displayed Venue Details, 02/Jun/2025 05:48:33
+Staff List Loaded, 02/Jun/2025 05:48:46
+Staff List Displayed, 02/Jun/2025 05:48:46
+Displayed Venue Details, 02/Jun/2025 05:48:56

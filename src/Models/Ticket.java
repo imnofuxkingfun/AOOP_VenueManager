@@ -4,14 +4,8 @@ public class Ticket {
     private  Integer id;
     private Integer seatNumber;
     private Character zone;
-    private static Integer nextTicketId = 0;
 
-//    static{
-//        try{
-//            //sa gasesti ultimul id de ticket
-//        }
-//    }
-
+    //teoretic nu am intetia sa creez obiecte noi de tip tickets
 
     public Ticket(Integer id, Integer seatNumber, Character zone) {
         this.id = id;
@@ -43,12 +37,5 @@ public class Ticket {
         this.zone = zone;
     }
 
-    @Override
-    public String toString() {
-        return "Ticket{" +
-                "id=" + id +
-                ", seatNumber=" + seatNumber +
-                ", zone=" + zone +
-                '}';
-    }
+
 }

@@ -1,9 +1,14 @@
 package Models;
 
+import DatabaseConnection.EventDB;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.Date;
 import java.util.*;
 
-public class Event {
+public class Event extends EventDB {
+    private static Integer nextId;
     private Integer id;
     private String name;
     private String type; //pop rock punk clsical musical etc
@@ -14,8 +19,20 @@ public class Event {
     //lista de artisti
     private List<Artist> artists;
 
-    public Event(Integer id, String name, String type, String description, Date date) {
-        this.id = id;
+    static{
+        try {
+            ResultSet rs = rowCountStatement.executeQuery();
+            rs.next();
+            nextId = rs.getInt(1);
+            nextId = nextId + 1;
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public Event(String name, String type, String description, Date date) {
+        this.id = nextId;
+        nextId = nextId + 1;
         this.name = name;
         this.type = type;
         this.description = description;

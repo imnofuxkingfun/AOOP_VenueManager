@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class AuditService {
-    private static String file;
+    private static final String file;
     static {
         file = "AOOP_VenueManager/src/AuditLog.csv";
     }

@@ -1,4 +1,5 @@
 package Models;
+import java.sql.ResultSet;
 import java.util.*;
 //clasa 'mama' dar o sa am doar un venue
 public class Venue {
@@ -8,6 +9,7 @@ public class Venue {
     //map cu de events dupa data lor - ordonata
     private Map<Date,Event> eventsByDate;
 
+
     public Venue(Integer id, String name, String address, Map<Date, Event> eventsByDate) {
         this.id = id;
         this.name = name;
@@ -15,12 +17,7 @@ public class Venue {
         this.eventsByDate = eventsByDate;
     }
 
-    public Venue(Integer id, String name, String address) {
-        this.id = id;
-        this.name = name;
-        this.address = address;
-        this.eventsByDate = new HashMap<>();
-    }
+
 
     public Integer getId() {
         return id;

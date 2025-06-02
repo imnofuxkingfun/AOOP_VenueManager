@@ -48,7 +48,14 @@ public class DatabaseInitialization extends ConnectionString {
             + "id INTEGER PRIMARY KEY,\n"
             + "name VARCHAR(50) NOT NULL,\n"
             + "department VARCHAR(50) NOT NULL,\n"
-            + "salary DOUBLE NOT NULL\n"
+            + "salary DOUBLE NOT NULL,\n"
+            + "managerId INTEGER NOT NULL\n"
+            + ");";
+
+    public static String createStaffManagerTable = "CREATE TABLE IF NOT EXISTS StaffManager (\n"
+            + "id INTEGER PRIMARY KEY,\n"
+            + "authorityLevel INTEGER NOT NULL,\n"
+            + "FOREIGN KEY (id) REFERENCES Staff(id) ON DELETE CASCADE \n "
             + ");";
 
     static{
@@ -67,6 +74,8 @@ public class DatabaseInitialization extends ConnectionString {
             auditService.logAction("Created or checked Event Ticket Table");
             c.createStatement().executeUpdate(createStaffTable);
             auditService.logAction("Created or checked Staff Table");
+            c.createStatement().executeUpdate(createStaffManagerTable);
+            auditService.logAction("Created or checked StaffManager Table");
         } catch (Exception e){
             System.out.print(e.getMessage());
         }
@@ -742,8 +751,55 @@ public class DatabaseInitialization extends ConnectionString {
     }
     */
 
-//    public static String insertStaffTable1 = "INSERT INTO Staff VALUES "+
-//            "(1, 'Bruce Wayne')"
+    //+STAFF
+    /*
+    public static String insertStaff1 = "INSERT INTO Staff VALUES (1, 'Bruce Wayne', 'Sales & PR', 9000, 13)";//manager
+    public static String insertStaff2 = "INSERT INTO Staff VALUES (2, 'Dick Grayson', 'Sales & PR', 7200, 1)";
+    public static String insertStaff3 = "INSERT INTO Staff VALUES (3, 'Tim Drake', 'Sales & PR', 7100, 1)";
+    public static String insertStaff4 = "INSERT INTO Staff VALUES (4, 'Lucius Fox', 'Technical', 9000, 13)";//amanger
+    public static String insertStaff5 = "INSERT INTO Staff VALUES (5, 'Barbara Gordon', 'Technical', 7800, 4)";
+    public static String insertStaff6 = "INSERT INTO Staff VALUES (6, 'Edward Nygma', 'Technical', 6900, 4)";
+    public static String insertStaff7 = "INSERT INTO Staff VALUES (7, 'Selina Kyle', 'Artist Liaison', 6000, 13)";//manager
+    public static String insertStaff8 = "INSERT INTO Staff VALUES (8, 'Harley Quinn', 'Artist Liaison', 6200, 7)";
+    public static String insertStaff9 = "INSERT INTO Staff VALUES (9, 'Talia al Ghul', 'Artist Liaison', 6500, 7)";
+    public static String insertStaff10 = "INSERT INTO Staff VALUES (10, 'Alfred Pennyworth', 'Security', 5500, 13)";//manager
+    public static String insertStaff11 = "INSERT INTO Staff VALUES (11, 'Jason Todd', 'Security', 4700, 10)";
+    public static String insertStaff12 = "INSERT INTO Staff VALUES (12, 'Oswald Cobblepot', 'Security', 4900, 10)";
+    public static String insertStaff13 = "INSERT INTO Staff VALUES (13, 'Jack Napier', 'Management', 1100, 0)";//boss
+
+    public static String insertManagement1 = "INSERT INTO StaffManager VALUES (1, 3)";
+    public static String insertManagement2 = "INSERT INTO StaffManager VALUES (4, 2)";
+    public static String insertManagement3 = "INSERT INTO StaffManager VALUES (7, 3)";
+    public static String insertManagement4 = "INSERT INTO StaffManager VALUES (10, 2)";
+    public static String insertManagement5 = "INSERT INTO StaffManager VALUES (13, 1)";
+
+
+
+    static {try{
+        c.createStatement().executeUpdate(insertStaff1);
+        c.createStatement().executeUpdate(insertStaff2);
+        c.createStatement().executeUpdate(insertStaff3);
+        c.createStatement().executeUpdate(insertStaff4);
+        c.createStatement().executeUpdate(insertStaff5);
+        c.createStatement().executeUpdate(insertStaff6);
+        c.createStatement().executeUpdate(insertStaff7);
+        c.createStatement().executeUpdate(insertStaff8);
+        c.createStatement().executeUpdate(insertStaff9);
+        c.createStatement().executeUpdate(insertStaff10);
+        c.createStatement().executeUpdate(insertStaff11);
+        c.createStatement().executeUpdate(insertStaff12);
+        c.createStatement().executeUpdate(insertStaff13);
+        c.createStatement().executeUpdate(insertManagement1);
+        c.createStatement().executeUpdate(insertManagement2);
+        c.createStatement().executeUpdate(insertManagement3);
+        c.createStatement().executeUpdate(insertManagement4);
+        c.createStatement().executeUpdate(insertManagement5);
+        auditService.logAction("Database initialized for staff and staffmanager");
+
+    }catch(Exception e){
+        System.out.println(e.getMessage());
+    }
+    }*/
 
 
 }
