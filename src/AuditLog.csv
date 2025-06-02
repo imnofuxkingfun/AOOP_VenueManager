@@ -25,3 +25,225 @@ Displayed Venue Details, 02/Jun/2025 05:48:33
 Staff List Loaded, 02/Jun/2025 05:48:46
 Staff List Displayed, 02/Jun/2025 05:48:46
 Displayed Venue Details, 02/Jun/2025 05:48:56
+Connected to database, 02/Jun/2025 19:18:18
+Singleton VenueService Instance Gotten, 02/Jun/2025 19:18:18
+Singleton EventService Instance Gotten, 02/Jun/2025 19:18:18
+Singleton TicketService Instance Gotten, 02/Jun/2025 19:18:18
+Singleton ArtistService Instance Gotten, 02/Jun/2025 19:18:18
+Singleton StaffService Instance Gotten, 02/Jun/2025 19:18:18
+
+Singleton Menu Instance Gotten, 02/Jun/2025 19:18:18
+Displayed Venue Details, 02/Jun/2025 19:18:18
+Loaded Venue Event Artist and EventTicket Data, 02/Jun/2025 19:18:23
+Displayed Venue Events by date, 02/Jun/2025 19:18:23
+Displayed Events Menu, 02/Jun/2025 19:18:29
+Loaded Venue Event Artist and EventTicket Data, 02/Jun/2025 19:18:29
+Displayed Venue Events by date, 02/Jun/2025 19:18:29
+Displayed Events Menu, 02/Jun/2025 19:18:31
+Displayed event details for event with id: 5, 02/Jun/2025 19:18:32
+Loaded Venue Event Artist and EventTicket Data, 02/Jun/2025 19:18:36
+Displayed Venue Events by date, 02/Jun/2025 19:18:36
+Displayed Events Menu, 02/Jun/2025 19:18:39
+Displayed event details for event with id: 2, 02/Jun/2025 19:18:41
+Displayed artists for event with id: 2, 02/Jun/2025 19:18:47
+Displayed event details for event with id: 2, 02/Jun/2025 19:18:52
+Loaded Venue Event Artist and EventTicket Data, 02/Jun/2025 19:18:58
+Displayed Venue Events by date, 02/Jun/2025 19:18:58
+Displayed Events Menu, 02/Jun/2025 19:19:01
+Displayed event details for event with id: 1, 02/Jun/2025 19:19:01
+Sold ticket D1 with id 231 for event with id 1, 02/Jun/2025 19:19:08
+Displayed event details for event with id: 1, 02/Jun/2025 19:19:08
+Loaded Venue Event Artist and EventTicket Data, 02/Jun/2025 19:29:44
+Displayed Venue Events by date, 02/Jun/2025 19:29:44
+Displayed Events Menu, 02/Jun/2025 19:34:06
+Loaded Venue Event Artist and EventTicket Data, 02/Jun/2025 19:34:06
+Displayed Venue Events by date, 02/Jun/2025 19:34:06
+Displayed Events Menu, 02/Jun/2025 19:34:10
+Displayed event details for event with id: 4, 02/Jun/2025 19:34:11
+Sold ticket V1 with id 1 for event with id 4, 02/Jun/2025 19:34:26
+Displayed event details for event with id: 4, 02/Jun/2025 19:34:26
+Connected to database, 02/Jun/2025 19:44:51
+Singleton VenueService Instance Gotten, 02/Jun/2025 19:44:51
+Singleton EventService Instance Gotten, 02/Jun/2025 19:44:51
+Singleton TicketService Instance Gotten, 02/Jun/2025 19:44:51
+Singleton ArtistService Instance Gotten, 02/Jun/2025 19:44:51
+Singleton StaffService Instance Gotten, 02/Jun/2025 19:44:51
+
+Singleton Menu Instance Gotten, 02/Jun/2025 19:44:51
+Displayed Venue Details, 02/Jun/2025 19:44:51
+Loaded Venue Event Artist and EventTicket Data, 02/Jun/2025 19:44:56
+Displayed Venue Events by date, 02/Jun/2025 19:44:56
+Displayed Events Menu, 02/Jun/2025 19:44:57
+Connected to database, 02/Jun/2025 19:45:09
+Singleton VenueService Instance Gotten, 02/Jun/2025 19:45:09
+Singleton EventService Instance Gotten, 02/Jun/2025 19:45:09
+Singleton TicketService Instance Gotten, 02/Jun/2025 19:45:09
+Singleton ArtistService Instance Gotten, 02/Jun/2025 19:45:09
+Singleton StaffService Instance Gotten, 02/Jun/2025 19:45:09
+
+Singleton Menu Instance Gotten, 02/Jun/2025 19:45:09
+Displayed Venue Details, 02/Jun/2025 19:45:09
+Loaded Venue Event Artist and EventTicket Data, 02/Jun/2025 19:45:11
+Displayed Venue Events by date, 02/Jun/2025 19:45:11
+Displayed Events Menu, 02/Jun/2025 19:45:12
+New Event added, 02/Jun/2025 19:45:23
+Loaded Venue Event Artist and EventTicket Data, 02/Jun/2025 19:45:23
+Displayed Venue Events by date, 02/Jun/2025 19:45:23
+Displayed Events Menu, 02/Jun/2025 19:45:27
+Displayed event details for event with id: 7, 02/Jun/2025 19:45:28
+Displayed event details for event with id: 7, 02/Jun/2025 19:45:35
+Sold ticket V1 with id 1 for event with id 7, 02/Jun/2025 19:45:45
+Connected to database, 02/Jun/2025 19:50:53
+Singleton VenueService Instance Gotten, 02/Jun/2025 19:50:53
+Singleton EventService Instance Gotten, 02/Jun/2025 19:50:53
+Singleton TicketService Instance Gotten, 02/Jun/2025 19:50:53
+Singleton ArtistService Instance Gotten, 02/Jun/2025 19:50:53
+Singleton StaffService Instance Gotten, 02/Jun/2025 19:50:53
+
+Singleton Menu Instance Gotten, 02/Jun/2025 19:50:53
+Displayed Venue Details, 02/Jun/2025 19:50:53
+Loaded Venue Event Artist and EventTicket Data, 02/Jun/2025 19:50:56
+Displayed Venue Events by date, 02/Jun/2025 19:50:56
+Displayed Events Menu, 02/Jun/2025 19:51:00
+Loaded Venue Event Artist and EventTicket Data, 02/Jun/2025 19:51:00
+Displayed Venue Events by date, 02/Jun/2025 19:51:00
+Displayed Events Menu, 02/Jun/2025 19:51:04
+Displayed event details for event with id: 7, 02/Jun/2025 19:51:05
+Displayed event details for event with id: 7, 02/Jun/2025 19:51:13
+Displayed event details for event with id: 7, 02/Jun/2025 19:51:28
+Displayed event details for event with id: 7, 02/Jun/2025 19:51:39
+Sold ticket V1 with id 1 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V2 with id 2 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V3 with id 3 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V4 with id 4 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V5 with id 5 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V6 with id 6 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V7 with id 7 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V8 with id 8 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V9 with id 9 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V10 with id 10 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V11 with id 11 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V12 with id 12 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V13 with id 13 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V14 with id 14 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V15 with id 15 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V16 with id 16 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V17 with id 17 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V18 with id 18 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V19 with id 19 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V20 with id 20 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V21 with id 21 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V22 with id 22 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V23 with id 23 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V24 with id 24 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V25 with id 25 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V26 with id 26 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V27 with id 27 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V28 with id 28 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V29 with id 29 for event with id 7, 02/Jun/2025 19:51:49
+Sold ticket V30 with id 30 for event with id 7, 02/Jun/2025 19:51:49
+Displayed event details for event with id: 7, 02/Jun/2025 19:51:49
+Displayed event details for event with id: 7, 02/Jun/2025 19:52:01
+Sold ticket A1 with id 31 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A2 with id 32 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A3 with id 33 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A4 with id 34 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A5 with id 35 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A6 with id 36 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A7 with id 37 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A8 with id 38 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A9 with id 39 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A10 with id 40 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A11 with id 41 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A12 with id 42 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A13 with id 43 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A14 with id 44 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A15 with id 45 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A16 with id 46 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A17 with id 47 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A18 with id 48 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A19 with id 49 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A20 with id 50 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A21 with id 51 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A22 with id 52 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A23 with id 53 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A24 with id 54 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A25 with id 55 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A26 with id 56 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A27 with id 57 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A28 with id 58 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A29 with id 59 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A30 with id 60 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A31 with id 61 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A32 with id 62 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A33 with id 63 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A34 with id 64 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A35 with id 65 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A36 with id 66 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A37 with id 67 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A38 with id 68 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A39 with id 69 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A40 with id 70 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A41 with id 71 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A42 with id 72 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A43 with id 73 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A44 with id 74 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A45 with id 75 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A46 with id 76 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A47 with id 77 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A48 with id 78 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A49 with id 79 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A50 with id 80 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A51 with id 81 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A52 with id 82 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A53 with id 83 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A54 with id 84 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A55 with id 85 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A56 with id 86 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A57 with id 87 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A58 with id 88 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A59 with id 89 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A60 with id 90 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A61 with id 91 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A62 with id 92 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A63 with id 93 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A64 with id 94 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A65 with id 95 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A66 with id 96 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A67 with id 97 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A68 with id 98 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A69 with id 99 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A70 with id 100 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A71 with id 101 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A72 with id 102 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A73 with id 103 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A74 with id 104 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A75 with id 105 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A76 with id 106 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A77 with id 107 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A78 with id 108 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A79 with id 109 for event with id 7, 02/Jun/2025 19:52:16
+Sold ticket A80 with id 110 for event with id 7, 02/Jun/2025 19:52:16
+Displayed event details for event with id: 7, 02/Jun/2025 19:52:16
+Displayed event details for event with id: 7, 02/Jun/2025 19:52:27
+Sold ticket A81 with id 111 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A82 with id 112 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A83 with id 113 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A84 with id 114 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A85 with id 115 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A86 with id 116 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A87 with id 117 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A88 with id 118 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A89 with id 119 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A90 with id 120 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A91 with id 121 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A92 with id 122 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A93 with id 123 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A94 with id 124 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A95 with id 125 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A96 with id 126 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A97 with id 127 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A98 with id 128 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A99 with id 129 for event with id 7, 02/Jun/2025 19:52:36
+Sold ticket A100 with id 130 for event with id 7, 02/Jun/2025 19:52:36
+Displayed event details for event with id: 7, 02/Jun/2025 19:52:36

@@ -110,7 +110,7 @@ public class Menu extends MenuDB{
         eventService.displayEvent(id);
         System.out.println();
         System.out.println("1.View artist(s)");
-        System.out.println("2.Sell a ticket");
+        System.out.println("2.Sell tickets");
         System.out.println("3.Update event details");
         System.out.println("4.Delete event");
         System.out.println("5.Exit");
