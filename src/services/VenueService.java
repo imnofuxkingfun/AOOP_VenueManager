@@ -1,8 +1,7 @@
-package Services;
+package services;
 
-import DatabaseConnection.MenuDB;
-import Models.*;
-import com.sun.source.tree.Tree;
+import databaseConnection.MenuDB;
+import models.*;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

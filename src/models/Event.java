@@ -1,9 +1,8 @@
-package Models;
+package models;
 
-import DatabaseConnection.EventDB;
+import databaseConnection.EventDB;
 
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.Date;
 import java.util.*;
 

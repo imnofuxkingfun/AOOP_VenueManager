@@ -1,6 +1,6 @@
-package Models;
+package models;
 
-import DatabaseConnection.StaffDB;
+import databaseConnection.StaffDB;
 
 import java.sql.ResultSet;
 

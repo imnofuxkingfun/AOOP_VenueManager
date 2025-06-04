@@ -1,6 +1,6 @@
-package Models;
+package models;
 
-import DatabaseConnection.ArtistDB;
+import databaseConnection.ArtistDB;
 
 import java.sql.ResultSet;
 

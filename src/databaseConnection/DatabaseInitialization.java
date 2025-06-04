@@ -1,5 +1,5 @@
-package DatabaseConnection;
-import Services.AuditService;
+package databaseConnection;
+import services.AuditService;
 
 public class DatabaseInitialization extends ConnectionString {
 

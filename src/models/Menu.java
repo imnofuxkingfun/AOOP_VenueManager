@@ -1,9 +1,8 @@
-package Models;
+package models;
 
-import DatabaseConnection.MenuDB;
-import Services.*;
+import databaseConnection.MenuDB;
+import services.*;
 
-import java.security.NoSuchAlgorithmException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.ParseException;

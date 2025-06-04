@@ -260,3 +260,41 @@ Loaded Venue Event Artist and EventTicket Data, 04/Jun/2025 17:11:14
 Displayed Venue Events by date, 04/Jun/2025 17:11:14
 Displayed Events Menu, 04/Jun/2025 17:11:19
 Displayed event details for event with id: 7, 04/Jun/2025 17:11:21
+Connected to database, 04/Jun/2025 18:19:22
+Singleton VenueService Instance Gotten, 04/Jun/2025 18:19:22
+Singleton EventService Instance Gotten, 04/Jun/2025 18:19:22
+Singleton TicketService Instance Gotten, 04/Jun/2025 18:19:22
+Singleton ArtistService Instance Gotten, 04/Jun/2025 18:19:22
+Singleton StaffService Instance Gotten, 04/Jun/2025 18:19:22
+
+Singleton Menu Instance Gotten, 04/Jun/2025 18:19:22
+Displayed Venue Details, 04/Jun/2025 18:19:23
+Loaded Venue Event Artist and EventTicket Data, 04/Jun/2025 18:19:52
+Displayed Venue Events by date, 04/Jun/2025 18:19:52
+Displayed Events Menu, 04/Jun/2025 18:20:03
+Displayed event details for event with id: 1, 04/Jun/2025 18:20:10
+Displayed artists for event with id: 1, 04/Jun/2025 18:20:16
+Displayed event details for event with id: 1, 04/Jun/2025 18:20:26
+Displayed event details for event with id: 1, 04/Jun/2025 18:21:05
+Sold ticket V2 with id 2 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V3 with id 3 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V4 with id 4 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V5 with id 5 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V6 with id 6 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V7 with id 7 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V8 with id 8 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V9 with id 9 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V10 with id 10 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V11 with id 11 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V12 with id 12 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V13 with id 13 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V14 with id 14 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V15 with id 15 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V16 with id 16 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V17 with id 17 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V18 with id 18 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V19 with id 19 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V20 with id 20 for event with id 1, 04/Jun/2025 18:21:16
+Sold ticket V21 with id 21 for event with id 1, 04/Jun/2025 18:21:16
+Displayed event details for event with id: 1, 04/Jun/2025 18:21:16
+Displayed event details for event with id: 1, 04/Jun/2025 18:21:38

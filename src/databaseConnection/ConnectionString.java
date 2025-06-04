@@ -1,9 +1,9 @@
-package DatabaseConnection;
+package databaseConnection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import Services.AuditService;
+import services.AuditService;
 
 public class ConnectionString {
     static AuditService auditService = AuditService.getInstance();

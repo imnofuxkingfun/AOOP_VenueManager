@@ -1,5 +1,4 @@
-package Models;
-import java.sql.ResultSet;
+package models;
 import java.util.*;
 //clasa 'mama' dar o sa am doar un venue
 public class Venue {

@@ -1,12 +1,9 @@
-package Services;
+package services;
 
-import DatabaseConnection.MenuDB;
-import Models.*;
-import com.sun.source.tree.Tree;
+import databaseConnection.MenuDB;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.text.ParseException;
 import java.util.*;
 
 public class TicketService extends MenuDB{
