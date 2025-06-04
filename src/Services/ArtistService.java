@@ -20,7 +20,7 @@ public class ArtistService extends MenuDB {
         return instance;
     }
 
-    private static AuditService auditService = new AuditService();
+    private static AuditService auditService = AuditService.getInstance();
 
     public void displayEventArtists(int eventId) throws SQLException {
         MenuDB.allEventArtistsStatement.setInt(1,eventId);

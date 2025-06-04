@@ -16,7 +16,7 @@ public class StaffService extends MenuDB{
         private static final StaffService instance = new StaffService();
     }
 
-    static AuditService auditService = new AuditService();
+    static AuditService auditService = AuditService.getInstance();
 
     public static StaffService getInstance() {
         auditService.logAction("Singleton StaffService Instance Gotten");

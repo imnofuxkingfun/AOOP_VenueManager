@@ -247,3 +247,16 @@ Sold ticket A98 with id 128 for event with id 7, 02/Jun/2025 19:52:36
 Sold ticket A99 with id 129 for event with id 7, 02/Jun/2025 19:52:36
 Sold ticket A100 with id 130 for event with id 7, 02/Jun/2025 19:52:36
 Displayed event details for event with id: 7, 02/Jun/2025 19:52:36
+Connected to database, 04/Jun/2025 17:11:10
+Singleton VenueService Instance Gotten, 04/Jun/2025 17:11:10
+Singleton EventService Instance Gotten, 04/Jun/2025 17:11:10
+Singleton TicketService Instance Gotten, 04/Jun/2025 17:11:10
+Singleton ArtistService Instance Gotten, 04/Jun/2025 17:11:10
+Singleton StaffService Instance Gotten, 04/Jun/2025 17:11:10
+
+Singleton Menu Instance Gotten, 04/Jun/2025 17:11:10
+Displayed Venue Details, 04/Jun/2025 17:11:11
+Loaded Venue Event Artist and EventTicket Data, 04/Jun/2025 17:11:14
+Displayed Venue Events by date, 04/Jun/2025 17:11:14
+Displayed Events Menu, 04/Jun/2025 17:11:19
+Displayed event details for event with id: 7, 04/Jun/2025 17:11:21

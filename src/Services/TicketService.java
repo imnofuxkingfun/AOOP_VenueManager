@@ -22,7 +22,7 @@ public class TicketService extends MenuDB{
         return SINGLETON_HOLDER.INSTANCE;
     }
 
-    private static final AuditService auditService = new AuditService();
+    static AuditService auditService = AuditService.getInstance();
 
     public double getPrice(char zone) {
         if (zone == 'V')

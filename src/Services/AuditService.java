@@ -7,6 +7,15 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class AuditService {
+    private AuditService() {}
+
+    private static final class SINGLETON_HOLDER {
+        private static final AuditService INSTANCE = new AuditService();
+    }
+    public static AuditService getInstance() {
+        return SINGLETON_HOLDER.INSTANCE;
+    }
+
     private static final String file;
     static {
         file = "AOOP_VenueManager/src/AuditLog.csv";

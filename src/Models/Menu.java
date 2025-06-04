@@ -12,7 +12,7 @@ import java.util.*;
 public class Menu extends MenuDB{
 
     //cum am singleton le fac aici decat in constructor
-    private static final AuditService auditService = new AuditService();
+    static AuditService auditService = AuditService.getInstance();
     private static final VenueService venueService = VenueService.getInstance();
     private static final EventService eventService = EventService.getInstance();
     private static final TicketService ticketService = TicketService.getInstance();

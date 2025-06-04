@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import Services.AuditService;
 
 public class ConnectionString {
-    static AuditService auditService = new AuditService();
+    static AuditService auditService = AuditService.getInstance();
     protected static String connectionString = "jdbc:mysql://localhost:3306/venuemanager"; //recordlabelschema";
     protected static String userName = "root";
     protected static String password = "record44LABEL";

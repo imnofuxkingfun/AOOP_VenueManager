@@ -21,7 +21,7 @@ public class VenueService extends MenuDB {
         return SINGLETON_HOLDER.INSTANCE;
     }
 
-    static AuditService auditService = new AuditService();
+    static AuditService auditService = AuditService.getInstance();
 
     public void displayVenue() throws SQLException {
         ResultSet venue =MenuDB.selectVenueStatement.executeQuery();

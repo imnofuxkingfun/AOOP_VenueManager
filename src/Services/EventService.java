@@ -25,7 +25,7 @@ public class EventService extends MenuDB {
         return SINGLETON_HOLDER.INSTANCE;
     }
 
-    static AuditService auditService = new AuditService();
+    static AuditService auditService = AuditService.getInstance();
 
     public void displayEvent(int id) throws SQLException{
         //nr of artists and tickets sold

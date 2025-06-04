@@ -3,7 +3,7 @@ import Services.AuditService;
 
 public class DatabaseInitialization extends ConnectionString {
 
-    static AuditService auditService = new AuditService();
+    static AuditService auditService = AuditService.getInstance();
 
     public static String createDatabase = "CREATE DATABASE IF NOT EXISTS VENUE";
 
