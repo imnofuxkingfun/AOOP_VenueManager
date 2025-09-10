@@ -7,7 +7,7 @@ The application includes logical access to CRUD operations alongside thoughtful 
 
 ## Features
 
-Demonstrates key AOOP features, such as private and protected classes, access methods, singletons, inheritance, along with a service classes for each class and multiple Collection types.
+Demonstrates key AOOP features, such as including encapsulation through private and protected classes, access methods, singleton patterns, inheritance, service classes and the use of multiple collection types.
 The project implements a relational database using JDBC, with optimized data reading. Another feature is the audit log, which writes in a CSV file everytime an action is executed, along with a timestamp.
 
 ## Menu
